@@ -40,13 +40,13 @@ export async function generateMetadata() {
       alt: "what you love",
     },
   ];
-  const title = "လမ်းပြောက်နေတဲ့ လူငယ်များအတွက် ဆရာသက်ခိုင်ရဲ့ အကြံပေးစာ";
+  const title = "Teacher Thek Khaing's advice post for youth";
   return {
-    title: `လမ်းပြောက်နေတဲ့ လူငယ်များအတွက် ဆရာသက်ခိုင်ရဲ့ အကြံပေးစာ`,
-    description: `လမ်းပြောက်နေတဲ့ လူငယ်များအတွက် ဆရာသက်ခိုင်ရဲ့ အကြံပေးစာ`,
+    title: title,
+    description: title,
     openGraph: {
-      title: `လမ်းပြောက်နေတဲ့ လူငယ်များအတွက် ဆရာသက်ခိုင်ရဲ့ အကြံပေးစာ`,
-      description: `လမ်းပြောက်နေတဲ့ လူငယ်များအတွက် ဆရာသက်ခိုင်ရဲ့ အကြံပေးစာ`,
+      title: title,
+      description: title,
       url: "/articles/saya-thet-khine",
       siteName: "Daily topic info",
       images: imageList,
