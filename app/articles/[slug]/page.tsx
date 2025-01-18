@@ -1,4 +1,4 @@
-export const iconMetaTags = [
+const iconMetaTags = [
   {
     rel: "apple-touch-icon",
     sizes: "152x152",
