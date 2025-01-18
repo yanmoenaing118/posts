@@ -1,3 +1,30 @@
+export const iconMetaTags = [
+  {
+    rel: "apple-touch-icon",
+    sizes: "152x152",
+    url: "/fav/apple-touch-icon@2x.png",
+  },
+  {
+    rel: "apple-touch-icon",
+    sizes: "120x120",
+    url: "/fav/apple-touch-icon@2x.png",
+  },
+  {
+    rel: "apple-touch-icon",
+    sizes: "76x76",
+    url: "/fav/apple-touch-icon.png",
+  },
+  {
+    rel: "apple-touch-icon",
+    url: "/fav/apple-touch-icon.png",
+  },
+  {
+    rel: "icon",
+    type: "image/png",
+    url: "/fav/favicon.png",
+  },
+];
+
 export async function generateMetadata() {
   const imageList = [
     {
@@ -31,9 +58,9 @@ export async function generateMetadata() {
       description: title,
       images: imageList,
     },
-    // icons: iconMetaTags,
+    icons: iconMetaTags,
     alternates: {
-      canonical: "/articles/saya-thet-khine",
+      canonical: "https://dailytopic.vercel.app/articles/saya-thet-khine",
     },
   };
 }
